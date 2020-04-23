@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Câu 4: Viết chương trình biểu diễn hình chòn với mô tả hình chò bằng class</title>
+	<script type="text/javascript" src="Circle.js"></script>
+</head>
+<body>
+	<p>Câu 4: Viết chương trình biểu diễn hình chòn với mô tả hình chò bằng class</p>
+	<canvas id="myCanvas" width="500" height="500"></canvas>
+	<script type="text/javascript">
+		let canvas = document.getElementById('myCanvas');
+		let ctx    = canvas.getContext('2d');
+		let circle = new Circle(10, 10, 100, '#000000');
+		circle.render(ctx);
+	</script>
+</body>
+</html>
